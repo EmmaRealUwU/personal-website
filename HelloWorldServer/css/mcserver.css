@@ -1,0 +1,178 @@
+body 
+{
+  background-color: rgb(197, 109, 105);
+}
+
+#WelcomeBox
+{
+  text-align: center;
+  color: white;
+  background-color: rgb(197, 109, 105);
+  width: 20vw;
+  position: relative;
+  left: 40vw;
+  right: 40vw;
+  padding-top: -0.2vh;
+  padding-bottom: 0.2vh;
+  border-radius: 4vb;
+}
+
+#TextAboveLinks
+{
+  text-align: center;
+}
+
+#LinkWall
+{
+  line-height: 4vh;
+  background-color: rgb(197, 109, 105);
+  width: 20vw;
+  position: relative;
+  left: 40vw;
+  right: 40vw;
+  padding-top: -0.2vh;
+  padding-bottom: 0.2vh;
+  border-radius: 4vb;
+}
+
+#YoutubeLink 
+{
+  color: white;
+  text-align: center;
+}
+
+#YoutubeVodsLink
+{
+  color: white;
+  text-align: center;
+}
+
+#TwitchLink
+{
+  color: white;
+  text-align: center;
+}
+
+#TwitterLink
+{
+  color: white;
+  text-align: center;
+}
+
+#TikTokLink
+{
+  color: white;
+  text-align: center;
+}
+
+#AboutMeBox
+{
+  background-color: rgb(197, 109, 105);
+  width: 20vw;
+  position: relative;
+  left: 40vw;
+  right: 40vw;
+  padding-top: -0.2vh;
+  padding-bottom: 0.2vh;
+  border-radius: 4vb;
+}
+
+#GIFBox
+{
+  position: fixed;
+  top: 3vh;
+  left: 3vw;
+}
+
+#GIFIMade
+{
+  width: 29vw;
+}
+
+#BottomPill
+{
+  /* position info */
+  position: fixed;
+  text-align: center;
+  font-size: 2vh;
+
+  /* aesthetic */
+  /*background-color: rgb(212,146,143);*/
+  background-color: rgb(197, 109, 105);
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4vb;
+
+  /* coords */
+  bottom: 3vh;
+  left: 44vw;
+  right: 44vw;
+}
+
+#ReturnPill
+{
+  /* position info */
+  position: fixed;
+  text-align: center;
+  font-size: 2vh;
+
+  /* aesthetic */
+  background-color: rgb(212,146,143);
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4vb;
+
+  /* coords */
+  top: 3vh;
+  left: 3vw;
+  right: 85vw;
+}
+
+h1 
+{
+  color: white;
+  text-align: center;
+  font-size: 5vh;
+}
+
+p 
+{
+  color: white;
+  text-align: center;
+  font-size: 2vh;
+}
+
+br
+{
+  line-height: 2vh;
+}
+
+li 
+{
+  color: white;
+  list-style-type: none;
+  font-size: 2vh;
+  text-align: center;
+}
+
+ /* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: pink;
+}
+
+/* selected link */
+a:active {
+  color: pink;
+} 

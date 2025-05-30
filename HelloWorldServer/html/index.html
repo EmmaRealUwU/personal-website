@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>EmmaReal? Home Page</title>
+        <meta name="home page" content="Home Page">
+        <meta name="keywords" content="LGBTQ, Streamer, Twitch, Linktree, EmmaReal, Emma, Latias">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="shortcut icon" href="src/favicon.ico">
+        <link rel="icon" href="src/favicon.ico">
+    </head>
+
+    <body>
+
+    <div id="WelcomeBox">
+        <h1 id="WelcomeTitle">Welcome :3</h1>
+        <p id="WelcomeText">to the official EmmaReal? Webpage</p>
+    </div>
+
+    <div id="LinkWall">
+        <p id="TextAboveLinks">I'm so glad you're here! Check me out on: <br/> 
+        <li id="TwitchLink"><a href="https://www.twitch.tv/emmarealuwu" target="_blank">My Twitch (I forget my login every month but I stream sometimes)</a></li>
+        <li id="YoutubeLink"><a href="https://www.youtube.com/channel/UCOaexHVh0YS5eejiBuU1jKQ" target="_blank">My YouTube Channel</a></li>
+        <li id="YoutubeVodsLink"><a href="https://www.youtube.com/channel/UC6youRjZWhO_eNsaMoKNydg" target="_blank">My Vods YouTube Channel</a></li>
+        <li id="BlueSkyLink"><a href="https://bsky.app/profile/emmareal.gay" target="_blank">My BlueSky</a></li>
+        <li id="TikTokLink"><a href="https://www.tiktok.com/@emmarealuwu" target="_blank">My TikTok Page (unlikely I will post here)</a></li>
+        <li id="SheetsLink"><a href="https://docs.google.com/spreadsheets/d/1-_d7A48AwAL_Cix48-vO71Fkgm4vNBajowH19llI0-k/edit?usp=sharing" target="_blank">Project I'm working on ^^</a></li>
+    </p>
+    </div>
+
+    <div id="AboutMeBox">
+        <h1 id="AboutMeTitle">About me :3</h1>
+        <p id="AboutMeText">
+            Resident trans girl <br/>
+            Started HRT         YIPPEE <br/> <br/>
+            Likes Pokémon a normal amount
+        </p>
+    </div>
+
+    <!-- <div id="GIFBox">
+    <img id="GIFIMade" src="https://images-ext-1.discordapp.net/external/x2n5KAeGo8AwCwppra6LA2hRHEIRFrviN3Fw9LFjZU0/https/img1.picmix.com/output/pic/normal/1/5/5/9/11779551_a89fb.gif">
+    </div> -->
+
+    <div id="BottomPill">
+    <p id="MCserverpageLink">
+        <a href="mcserver.html">My minecraft server :3</a>
+    </p>
+    </div>
+    </body>
+    <script src="scripts/home.js"></script>
+    <script>
+        function timeDifference(current, previous) {
+        
+            var sPerMinute = 60 * 1000;
+            var sPerHour = sPerMinute * 60;
+            var sPerDay = sPerHour * 24;
+            var sPerMonth = sPerDay * 30;
+            var sPerYear = sPerDay * 365;
+            var sPerCentury = sPerYear * 100;
+        
+            var elapsed = current - previous;
+        
+            if (elapsed < sPerMinute) {
+                return Math.round(elapsed) + ' seconds ago';   
+            }
+        
+            else if (elapsed < sPerHour) {
+                var minutes = elapsed/sPerMinute;
+                if(Math.round(minutes) == 1)
+                {
+                    return '1 minute ago';
+                }
+                return Math.floor(elapsed/sPerMinute) + ' minutes ago';   
+            }
+        
+            else if (elapsed < sPerDay ) {
+                var hours = elapsed/sPerHour;
+                if(Math.round(hours) == 1)
+                {
+                    return '1 hour ago';
+                }
+                return Math.floor(hours) + ' hours ago';   
+            }
+        
+            else if (elapsed < sPerMonth) {
+                var days = elapsed/sPerDay;
+                if(Math.round(days) == 1)
+                {
+                    return '1 day ago';
+                }
+                return Math.floor(days) + ' days ago';   
+            }
+        
+            else if (elapsed < sPerYear) {
+                var months = elapsed/sPerMonth;
+                if(Math.round(months) == 1)
+                {
+                    return '1 month ago';
+                }
+                return Math.floor(months) + ' months ago';   
+            }
+        
+            else 
+            {
+                var years = elapsed/sPerYear;
+                if(Math.round(years) == 1)
+                {
+                    return '1 year ago';
+                }
+                return Math.floor(years) + ' years ago';   
+            }
+        }
+        
+        var now = Date.now()
+                
+        var hrtStart = 1715922000000;
+        document.getElementById("AboutMeText").innerHTML = "Resident trans girl <br/>Started HRT " + timeDifference(now, hrtStart) + " YIPPEE <br/> <br/> Likes Pokémon a normal amount";// + "<br/> I love my wubf and boyf beep boop conputer <br/>";
+        </script>
+</html>

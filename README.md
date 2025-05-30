@@ -4,6 +4,10 @@ Here's my personal website!
 It's a simple bunch of pages for now, but I'll be making it into an interactive web application up to standard!
 Wish me luck ^^
 
+Currently working on:
+<ul>
+    <li>Replacing current static website pages with Node.js server</li>
+</ul>
 
 Personal goals:
 <ul>
