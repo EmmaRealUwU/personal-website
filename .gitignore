@@ -1,1 +1,3 @@
 *.log
+HelloWorldServer/node_modules/
+HelloWorldServer/logs/
