@@ -18,9 +18,19 @@ Personal goals:
     </ul>
     </li>
     <li>Minecraft server info / Bluemap integration</li>
+    <li>Maybe some type of wishlist</li>
     <li>Accessibility and Responsive Design</li>
     <li>Writing some quality code</li>
 </ul> 
+
+Other ideas:
+<ul>
+    <li>Latias kinnie page</li>
+    <li>Pokemon merch (check)list</li>
+    <li>TCG Binder Planner</li>
+    <li>Pokemon Home progress tracker</li>
+    <li>Yearly shiny pokemon bingo card maker</li>
+</ul>
 
 Technical goals:
 <ul>
