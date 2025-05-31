@@ -1,4 +1,4 @@
-# personal-website
+# My personal website!!
 
 Here's my personal website!
 It's a simple bunch of pages for now, but I'll be making it into an interactive web application up to standard!
